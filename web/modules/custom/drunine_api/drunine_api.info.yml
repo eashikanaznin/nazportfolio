@@ -1,0 +1,5 @@
+name: Drunine API
+description: This module provides custom API for decoupled drupal.
+type: module
+package: Eashika custom
+core_version_requirement: ^8.8 || ^9

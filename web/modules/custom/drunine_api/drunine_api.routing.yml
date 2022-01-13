@@ -1,0 +1,7 @@
+drunine_api.drunine:
+  path: '/drunine/api'
+  defaults:
+    _controller: '\Drupal\drunine_api\Controller\drunineController::drunine'
+    _title: 'My first page in D9'
+  requirements:
+    _permission: 'access content'
