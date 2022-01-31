@@ -1,0 +1,15 @@
+job_builder.example:
+  path: '/apprenticeship-opportunities'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\job_builder\Controller\JobBuilderController::build'
+  requirements:
+    _permission: 'access content'
+
+job_builder.settings_form:
+  path: '/admin/config/system/job-builder'
+  defaults:
+    _title: 'Import Opportunities'
+    _form: 'Drupal\job_builder\Form\SettingsForm'
+  requirements:
+    _permission: 'administer job_builder configuration'
