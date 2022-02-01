@@ -47,7 +47,10 @@ public function submitForm(array &$form, FormStateInterface $form_state) {
   $api_response=CurlGenerator::curlReq();
   //returns number of record created
   $count=nodeImporter::nodeGenerator($api_response);
-  \Drupal::messenger()->addMessage($count.' records imported successfully');
+  if($count){
+    \Drupal::messenger()->addMessage($count.' records imported successfully');
+  }
+
 
 }
 

@@ -29,7 +29,11 @@ class nodeImporter {
       $node->save();
       $count++;
     }
+    //return the number of records created
     return $count;
+    /**
+     * Include error message on failure
+     * */
   }
 
 

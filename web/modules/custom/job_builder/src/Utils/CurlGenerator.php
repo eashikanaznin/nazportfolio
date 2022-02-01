@@ -41,6 +41,9 @@ class CurlGenerator {
 
     //calling first time to get the total number of records; then fetching the records
     $res= self::curlFunction($api_key,$url);
+    /**
+     * Include error message on failure
+     * */
     if($res){
       $res=Json::decode($res);
       $item_total=$res['totalFiltered'];
