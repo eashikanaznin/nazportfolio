@@ -1,0 +1,6 @@
+opportunity_importer.settings_form:
+  title: opportunity importer
+  description: Configure opportunity importer.
+  parent: system.admin_config_system
+  route_name: opportunity_importer.settings_form
+  weight: 10

@@ -1,0 +1,15 @@
+pink.example:
+  path: '/pink/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\pink\Controller\PinkController::build'
+  requirements:
+    _permission: 'access content'
+
+pink.settings_form:
+  path: '/admin/config/system/pink'
+  defaults:
+    _title: 'pinky settings'
+    _form: 'Drupal\pink\Form\SettingsForm'
+  requirements:
+    _permission: 'administer pink configuration'

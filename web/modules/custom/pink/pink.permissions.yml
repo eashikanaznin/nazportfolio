@@ -1,0 +1,4 @@
+administer pink configuration:
+  title: 'Administer pink configuration'
+  description: 'Optional description.'
+  restrict access: true

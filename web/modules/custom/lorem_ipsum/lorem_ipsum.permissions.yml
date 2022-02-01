@@ -1,0 +1,7 @@
+'lorem access':
+  title: this will show up on the permission admin page
+  description: 'description of the permission'
+  restrict access: TRUE
+  # The restrict access key is used to warn users that this particular
+  # permission has serious security implications and should be given out only to trusted users.
+  # Warning: Give to trusted roles only; this permission has security implications. description of the permission

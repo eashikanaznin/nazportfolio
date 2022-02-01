@@ -1,0 +1,11 @@
+name: Lorem Ipsum
+description: A playground to practice drupal 9 module customization
+type: module
+package: Eashika custom
+core_version_requirement: ^8.7.7 || ^9
+
+# configure: restui.list
+dependencies:
+  - drupal:node
+  - webform:webform (>=8.x-5.x)
+  - devel:devel_generate

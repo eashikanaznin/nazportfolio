@@ -1,0 +1,4 @@
+administer opportunity_importer configuration:
+  title: 'Administer opportunity_importer configuration'
+  description: 'Optional description.'
+  restrict access: true

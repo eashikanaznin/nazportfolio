@@ -1,0 +1,15 @@
+opportunity_importer.example:
+  path: '/opportunity-importer/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\opportunity_importer\Controller\OpportunityImporterController::build'
+  requirements:
+    _permission: 'access content'
+
+opportunity_importer.settings_form:
+  path: '/admin/config/system/opportunity-importer'
+  defaults:
+    _title: 'opportunity importer settings'
+    _form: 'Drupal\opportunity_importer\Form\SettingsForm'
+  requirements:
+    _permission: 'administer opportunity_importer configuration'

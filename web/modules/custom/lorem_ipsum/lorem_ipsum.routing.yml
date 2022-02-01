@@ -1,0 +1,7 @@
+lorem/ipsum:
+  path: 'lorem/ipsum'
+  defaults:
+    _title: 'test_route'
+    _controller: '\Drupal\lorem_ipsum\Controller\LoremIpsumController::build'
+  requirements:
+    _permission: 'lorem access'

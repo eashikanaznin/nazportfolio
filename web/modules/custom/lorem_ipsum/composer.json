@@ -1,0 +1,19 @@
+{
+    "name": "drupal/nazportfolio",
+    "description": "a custom module to practice drupal 9",
+    "type": "drupal-module",
+    "require": {
+        "devel/modules": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\Nazportfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eashika",
+            "email": "eashika07@gmail.com"
+        }
+    ]
+}
