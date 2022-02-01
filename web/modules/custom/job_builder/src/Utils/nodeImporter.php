@@ -21,7 +21,7 @@ class nodeImporter {
 
 // Create node object and insert as data to oppoptunity content type
       $node = Node::create([
-        'type'        => 'name: opportunity',
+        'type'        => 'opportunity',
         'title'       =>  $res['title'],
         'field_opportunity_link'       =>  $res['vacancyUrl'],
         'field_possible_start_date'       =>  $formatted_date,

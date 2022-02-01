@@ -25,7 +25,8 @@ class SettingsForm extends FormBase{
       '#type' => 'submit',
       '#value' => $this->t('Import Now'),
     ];
-
+    /**add your code here*/
+    /**please add checkbox to delete previous record*/
     return $form;
   }
 
