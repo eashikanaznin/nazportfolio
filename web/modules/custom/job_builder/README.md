@@ -15,10 +15,14 @@ The module provides a settings page where the import can be done manually by cli
 On form submit a curl request gets generated and through a loop contents are created in "opportunity" content type.
 Although not required for this particular module, views module can be used to generated a listing page for the opportunity content type
 
+Scope of improvement:
+ * work in progress; please add "delete previous records" and "add to previous records" options in setting form
+ * needs work on error handling
+
 REQUIREMENTS
 ------------
 
-This module requires no modules outside of Drupal core.
+This module requires "keys" module outside of Drupal core.
 
 
 INSTALLATION
@@ -33,10 +37,8 @@ CONFIGURATION
 
     1. Module can me manually enabled from "Extend"; also can be enabled through drush command
 	"drush en job_builder"
-    2. Navigate to Administration > Configuration > System > Import opportunity content to see the settings form
-
-Configurable parameters:
- * work in progress; please add "delete previous records" and "add to previous records" options in setting form
+    2.Add the API key in the key modue's dashboard. the id should be "displayadvartapi"
+    3. Navigate to Administration > Configuration > System > Import opportunity content to see the settings form
 
 
 MAINTAINERS
